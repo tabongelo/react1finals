@@ -1,0 +1,56 @@
+.header{
+    overflow: hidden;
+    background-color: #d5d5d5;
+}
+
+.header p {
+    float: left;
+    color: #222;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+}
+
+.header p.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4284f5;
+}
+
+.header p:hover {
+    background-color: #fc5454;
+    color: #705d67;
+    border-radius: 15px;
+}
+
+.header p.active {
+    background-color: #222;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.header-right {
+    padding: 5px;
+    float: right;
+    padding-right: 30px;
+}
+.header-left {
+    padding: 5px;
+    float: left;
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .header p {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
